@@ -10,14 +10,13 @@
 2. **Clone the Repository:**
    - Open the terminal (or command prompt) and run the following command to clone the repository:
      ```bash
-     git clone https://github.com/username/repository-name.git
+     git clone https://github.com/jefersonprimer/password_generator_mobile
      ```
-   - Replace `https://github.com/username/repository-name.git` with the URL of the repository you want to clone.
 
 3. **Navigate to the Project Directory:**
    - Change to the cloned project directory:
      ```bash
-     cd repository-name
+     cd password_generator_mobile
      ```
 
 4. **Install Dependencies:**
@@ -31,7 +30,7 @@
      ```
 
 5. **Set Up the Environment:**
-   - Make sure you have the development environment set up. You will need Node.js, Expo (if using), and either Android Studio or Xcode (depending on whether you're running on Android or iOS).
+   - Ensure you have the development environment set up. You will need Node.js, Expo (if using), and either Android Studio or Xcode (depending on whether you're running on Android or iOS).
    - Follow the installation instructions for React Native [here](https://reactnative.dev/docs/environment-setup).
 
 6. **Run the Project:**
@@ -45,12 +44,30 @@
      ```
    - If using Expo, you can start with:
      ```bash
-     expo start
+     npx expo start
      ```
 
 7. **View on Emulator or Device:**
    - Open an Android or iOS emulator (or use a physical device).
    - Follow the instructions displayed in the terminal to view the app.
+
+### Notes:
+- Ensure all prerequisites are installed (Node.js, Watchman, JDK, etc.).
+- For Expo projects, you may need the Expo Go app on your mobile device.
+
+
+
+# Welcome to your Expo app 👋
+
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+
+## Get started
+
+1. Install dependencies
+
+   ```bash
+   npm install
+
 
 ### Notes:
 - Ensure all prerequisites are installed (Node.js, Watchman, JDK, etc.).
